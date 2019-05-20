@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Justin Delaney's Portfolio</title>
+
+    <!-- JQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.js"
+      integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Materialize CSS CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!-- Materialize Fonts CDN -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Fonts Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
+    <!-- Portfolio CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/style.css"
+    />
+
+    <!-- Portfolio Javascript -->
+    <script src="js/script.js"></script>
+  </head>
+  <!-- WEBSITE BODY -->
+  <body>
+    <div class="navbar-fixed z-depth-3">
+      <nav class="nav">
+        <div class="nav-wrapper container">
+          <a id="logo-container" href="#" class="brand-logo">JUSTIN DELANEY</a>
+          <ul class="right hide-on-med-and-down ">
+            <li><a href="#aboutMe">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+          <ul id="nav-mobile" class="sidenav">
+              <li><a href="#aboutMe">About Me</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#resume">Resume</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          <a href="#" data-target="nav-mobile" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+        </div>
+      </nav>
+    </div>
+
+    <div
+      id="index-banner "
+      class="parallax-container header-para valign-wrapper"
+    >
+      <div class="section no-pad-bot">
+        <div class="container header">
+          <h1 class="header center white-text">
+            Justin Delaney
+          </h1>
+          <div class="row center">
+            <h4 class="header col s12 light">
+              Film / TV / New Media - based Fullstack Web Developer
+            </h4>
+          </div>
+        </div>
+      </div>
+      <div class="parallax">
+        <img src="/images/network-bg.jpg" alt="network img" />
+      </div>
+    </div>
+
+    <!-- About Me -->
+    <div class="container" id="aboutMe">
+      <div class="section">
+          <div class="container section" id="about">
+              <div class="row">
+                  <div class="col s12">
+                      <ul class="tabs">
+                          <li class="tab col s4">
+                              <a href="#education-tab" class="black-text text-darken-3">
+                                  <h5>Education</h5>
+                              </a>
+                          </li>
+                          <li class="tab col s4">
+                              <a href="#workHistory-tab" class="black-text text-darken-3">
+                                  <h5>Work</h5>
+                              </a>
+                          </li>
+                          <li class="tab col s4">
+                              <a href="#skills-tab" class="black-text text-darken-3">
+                                  <h5>Skills</h5>
+                              </a>
+                          </li>
+                      </ul>
+                      <div class="col s12 educationPar" id="education-tab">
+                          <p class="flow-text blue-text text-lighten-2 ">EDUCATION</p>
+                          <p>
+                            <b>Virgina Commonwealth University</b><br>
+                            <ul>
+                              <li>Organizational Psychology, BS</li>
+                              <li>Theatre, BA</li>
+                              <li>Creative Writing, Minor</li>
+                            </ul>
+                            <br><br>
+                            <b>University of California, Los Angeles</b> (UCLA Extension)<br>
+                            <ul>
+                              <li>Business & Management of Entertainment, Certificate</li>
+                            </ul>
+                            <br><br>
+                            <b>University of California, Los Angeles</b> (UCLA Extension)<br>
+                            <ul>
+                                <li>Full Stack Coding Bootcamp</li>
+                              </ul>
+                            <br><br>
+                          </p>
+                      </div>
+                      <div class="col s12 workHistoryPar" id="workHistory-tab">
+                          <p class="flow-text blue-text text-lighten-2">WORK HISTORY</p>
+                          <p>
+                            <b>STUDIO OPERATIONS COORDINATOR</b><br>
+                              <ul>
+                                <li>Warner Bros. Studio</li>
+                              </ul>
+                              <br><br>
+                            <b>GUEST SERVICES MANAGER</b><br>
+                            <ul>
+                                <li>Courtyard by Marriott</li>
+                              </ul>
+                              <br><br>
+                            <b>DIRECT MARKETING MANAGER</b><br>
+                            <ul>
+                                <li>Avail Marketing</li>
+                              </ul>
+                              <br><br>
+            </p>
+                      </div>
+                      <div class="col s12 skillsPar" id="skills-tab">
+                          <p class="flow-text blue-text text-lighten-2">SKILLS</p>
+                          <p>
+                            <div class="col s4">
+                            <ul>
+                                <li>Xytech MediaPulse</li>
+                                <li>Salesforce</li>
+                                <li>SAP</li>
+                                <li>SPSSStatistic</li>
+                              </ul>
+                          </div>
+                          <div class="col s4">
+                            <ul>
+                              <li>Microsoft Office</li>
+                              <li>Google Calendars</li>
+                              <li>Google Docs</li>
+                              <li>Final Draft</li>
+                              <li>Final Cut Pro</li>
+
+                            </ul>
+                          </div>
+                          <div class="col s4">
+                              <ul>
+                                <li>Adobe Creative Cloud</li>
+                                <li>HTML/CSS/Javascript</li>
+                                <li>Firebase</li>
+                                <li>API Implementation</li>
+                                <li>Social Media Marketing</li>
+                              </ul>
+                            </div>
+
+
+                            <br><br>
+                              </p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<hr>
+    <!-- Section: Portfolio -->
+
+    <section id="portfolio" class="section section-blog scrollspy">
+      <h6 class="center">Check out my work, below...</h6>
+      <h3 class="center">Portfolio</h3>
+      <div class="row">
+        <div class="col s6 m6 l3 ">
+          <div class="card medium portfolio-card1">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator portCardImg" src="images/Youth-Ed.jpg" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >FLMY App<i class="material-icons right">more_vert</i></span
+              >
+              <p>
+                <a href="https://samg990.github.io/Project-1/">Visit Site</a>
+              </p>
+              <p>
+                  <a href="https://github.com/samg990/Project-1">Visit Github</a>
+                </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >FMLY App<i class="material-icons right">close</i></span
+              >
+              <p>
+                (Fund Mentors Lift Youth)<br />Micro Crowdsourcing App, focused
+                on raising money for Mentors to expose Youth to a broader
+                spectrum of activities and experiences.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s6 m6 l3 ">
+          <div class="card medium portfolio-card2">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/movie_posters.jpg"/>
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >Hollywood Hangman<i class="material-icons right">more_vert</i></span
+              >
+              <p>
+                <a href="https://delaneyjp.github.io/Word-Guess-Game/">Visit Site</a>
+              </p>
+              <p>
+                  <a href="https://github.com/Delaneyjp/Word-Guess-Game">Visit Github</a>
+                </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Hollywood Hangman<i class="material-icons right">close</i></span
+              >
+              <p>
+                Fun game that gives you 9 tries to match the mystery work. 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s6 m6 l3 ">
+          <div class="card medium portfolio-card3">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/worldmap.jpg"/>
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >Train Scheduler<i class="material-icons right">more_vert</i></span
+              >
+              <p>
+                <a href="https://delaneyjp.github.io/Train-Scheduler/">Visit Site</a>
+              </p>
+              <p>
+                  <a href="https://github.com/Delaneyjp/Train-Scheduler">Visit Github</a>
+                </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Train Scheduler<i class="material-icons right">close</i></span
+              >
+              <p>
+                Scheduler, running in realtime, utilizing Firebase to store data for train arrivals.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s6 m6 l3">
+            <div class="card medium portfolio-card4">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/sierras_1.jpg" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4"
+                  >Sierra Shay<i class="material-icons right">more_vert</i></span
+                >
+                <p>
+                  <a href="#">Coming Soon!</a>
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4"
+                  >Sierra Shay Actress Website<i class="material-icons right">close</i></span
+                >
+                <p>
+                  Fully functional Acting Promotional Website.
+                </p>
+              </div>
+            </div>
+        </div>
+      </section>
+
+    <div class="parallax-container valign-wrapper resume-para">
+      <div class="section no-pad-bot">
+        <div class="container" id="resume">
+          <div class="row center">
+            <h2 class="header col s12 light">
+              View Full Resume Here
+              <div class="row center">
+                <a
+                  href="assets/justin-delaney-resume.pdf"
+                  id="download-button"
+                  class="btn-large waves-effect waves-light grey darken-3 pdf-download"
+                  >Download</a
+                >
+              </div>
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="parallax">
+        <img class="para1" src="/images/computer-bg.jpg" alt="computer" />
+      </div>
+    </div>
+
+    <div class="section container" id="contact">
+      <div class="row">
+        <div class="col s12 l5">
+          <h2 class="blue-text text-lighten-2">Get In Touch</h2>
+          <p>
+            I am dedicated to creating tangible, visually-appealing, and
+            optimally functional apps and websites. My main focus is bringing
+            your idea to life, and pushing you closer to your goal.
+          </p>
+        </div>
+
+        <div class="col s12 l5 offset-l2">
+          <form action="" class="fmly-contact">
+            <div class="input-field">
+              <i class="material-icons prefix">email</i>
+              <input type="email" id="email" />
+              <label for="email">Your Email</label>
+            </div>
+            <div class="input-field">
+              <i class="material-icons prefix">message</i>
+              <textarea
+                id="message"
+                class="materialize-textarea"
+                cols="30"
+                rows="10"
+              ></textarea>
+              <label for="message">Your Message</label>
+            </div>
+            <div class="input-field">
+              <i class="material-icons prefix">schedule</i>
+              <input type="text" id="date" class="datepicker" />
+              <label for="date">Pick Consultation Date</label>
+            </div>
+            <div class="input-field">
+              <p>What services are you interested in?</p>
+              <p>
+                <label>
+                  <input type="checkbox" />
+                  <span>App Development</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" />
+                  <span>Website</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" />
+                  <span>Current App or Website Enhancement</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" />
+                  <span>Data Analyzing</span>
+                </label>
+              </p>
+            </div>
+            <div class="input-field center">
+              <button class="btn blue lighten-2">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="parallax-container footer-parallax valign-wrapper">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <h3 class="header white-text col s12 ">
+              I am looking forward to hearing from you...
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="parallax ">
+        <img
+          class="para1"
+          src="/images//socialmed-bg.jpg"
+          alt="social media symbols"
+        />
+      </div>
+    </div>
+
+    <footer class="page-footer grey">
+      <div class="container">
+        <div background="images/web-bg.jpg"></div>
+        <div class="row">
+          <div class="col s6 l6">
+            <h5 class="blue-text text-lighten-4">Links:</h5>
+            <ul>
+              <li><a class="white-text" href="#aboutMe">About Me</a></li>
+              <li><a class="white-text" href="#portfolio">Portfolio</a></li>
+              <li><a class="white-text" href="#resume">Resume</a></li>
+              <li><a class="white-text" href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col s6 l4 offset-2">
+            <h5>Connect</h5>
+            <ul class="social-icons">
+              <li>
+                <a
+                  href="https://www.facebook.com/profile.php?id=1569780109"
+                  class="tooltipped btn-floating btn-small blue lighten-2"
+                  data-tooltip="Facebook"
+                >
+                  <i class=" fab fa-facebook"></i>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.instagram.com/iamjparrish/"
+                  class="tooltipped btn-floating btn-small blue lighten-2"
+                  data-tooltip="Instagram"
+                >
+                  <i class=" fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/iAmJParrish"
+                  class="tooltipped btn-floating btn-small blue lighten-2"
+                  data-tooltip="Twitter"
+                >
+                  <i class=" fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/justindelaney-prodmgmt/"
+                  class="tooltipped btn-floating btn-small blue lighten-2"
+                  data-tooltip="Linkedin"
+                >
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright grey lighten-2">
+        <div class="container center-align white-text">
+          &copy; 2019 Justin Delaney
+        </div>
+      </div>
+    </footer>
+
+    <!--  Scripts-->
+    <!-- JQuery -->
+    <script src=" https://code.jquery.com/jquery-3.4.0.js"></script>
+    <!-- Materialize Javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="js/init.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script>('DOMContentLoaded', function () {
+      var elems = document.querySelectorAll('select');
+      var instances = M.FormSelect.init(elems, options);
+    });
+    </script>
+
+ <script>
+    $(document).ready(function () {
+        $(".sidenav").sidenav();
+        $(".parallax").parallax();
+        $(".tabs").tabs();
+        $(".datepicker").datepicker({
+            disableWeekends: true
+        });
+        $(".tooltipped").tooltip();
+        $('.carousel').carousel();
+    });
+</script>
+
+
+  </body>
+</html>
