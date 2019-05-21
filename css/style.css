@@ -95,6 +95,9 @@ p {
   .resume-para h2 {
     margin-top: -50px;
   }
+  .brand-logo {
+    font-size: 75%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
