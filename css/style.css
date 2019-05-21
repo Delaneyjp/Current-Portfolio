@@ -92,11 +92,12 @@ p {
     margin-top: -50px;
   }
 
+  .tabs h5 {
+    font-size: 75%;
+  }
+
   .resume-para h2 {
     margin-top: -50px;
-  }
-  .brand-logo {
-    font-size: 75%;
   }
 }
 
@@ -107,11 +108,29 @@ p {
 
   .header h1 {
     margin-top: -50px;
+    font-size: 300%;
+  }
+
+  .header h4 {
+    font-size: 150%;
   }
 
   .resume-para h2 {
     margin-top: -50px;
   }
+}
+#logo-container.brand-logo {
+  font-size: 150%;
+}
+
+#about {
+  margin-left: 0px;
+  margin-right: 0px;
+  font-size: 75%;
+}
+
+.tabs h5 {
+  font-size: 100%;
 }
 
 .icon-block {
